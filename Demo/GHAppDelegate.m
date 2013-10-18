@@ -20,7 +20,7 @@
 @property (nonatomic, strong) GHSidebarSearchViewController *searchController;
 @property (nonatomic, strong) GHMenuViewController *menuController;
 @end
-
+ 
 #pragma mark Implementation
 @implementation GHAppDelegate
 
