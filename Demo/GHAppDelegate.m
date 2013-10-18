@@ -46,19 +46,19 @@
 	];
 	NSArray *controllers = @[
 		@[
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Profile" withRevealBlock:revealBlock]]
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Home" withRevealBlock:revealBlock]]
 		],
 		@[
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"News Feed" withRevealBlock:revealBlock]],
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Messages" withRevealBlock:revealBlock]],
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Nearby" withRevealBlock:revealBlock]],
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Events" withRevealBlock:revealBlock]],
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Friends" withRevealBlock:revealBlock]]
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"语文" withRevealBlock:revealBlock]],
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"数学" withRevealBlock:revealBlock]],
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"英语" withRevealBlock:revealBlock]],
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"物理" withRevealBlock:revealBlock]],
+			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"化学" withRevealBlock:revealBlock]]
 		]
 	];
 	NSArray *cellInfos = @[
 		@[
-			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"Profile", @"")}
+			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"Home", @"")}
 		],
 		@[
 			@{kSidebarCellImageKey: [UIImage imageNamed:@"user.png"], kSidebarCellTextKey: NSLocalizedString(@"News Feed", @"")},
