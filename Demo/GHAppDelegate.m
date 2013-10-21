@@ -12,6 +12,7 @@
 #import "GHRevealViewController.h"
 #import "GHSidebarSearchViewController.h"
 #import "GHSidebarSearchViewControllerDelegate.h"
+#import "HomeViewController.h"
 
 
 #pragma mark Private Interface
@@ -39,6 +40,7 @@
 		[self.revealController toggleSidebar:!self.revealController.sidebarShowing 
 									duration:kGHRevealSidebarDefaultAnimationDuration];
 	};
+    
 	
 	NSArray *headers = @[
 		[NSNull null],
@@ -46,7 +48,8 @@
 	];
 	NSArray *controllers = @[
 		@[
-			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Home" withRevealBlock:revealBlock]]
+//			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"Home" withRevealBlock:revealBlock]]
+            [[UINavigationController alloc] initWithRootViewController:[[HomeViewController alloc] initWithTitle:@"Home" withRevealBlock:revealBlock]]
 		],
 		@[
 			[[UINavigationController alloc] initWithRootViewController:[[GHRootViewController alloc] initWithTitle:@"语文" withRevealBlock:revealBlock]],
