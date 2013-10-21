@@ -26,6 +26,8 @@
 		6BE3FCAD147A096500CDEC04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE3FCAC147A096500CDEC04 /* CoreGraphics.framework */; };
 		6BE3FCC4147A09E400CDEC04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE3FCC3147A09E400CDEC04 /* QuartzCore.framework */; };
 		6BE3FCDA147A118200CDEC04 /* GHRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE3FCD6147A118200CDEC04 /* GHRevealViewController.m */; };
+		F580F26D1814F61B00B0ACCE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580F26B1814F61B00B0ACCE /* HomeViewController.m */; };
+		F580F26E1814F61B00B0ACCE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F580F26C1814F61B00B0ACCE /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,9 @@
 		6BE3FCC3147A09E400CDEC04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6BE3FCD5147A118100CDEC04 /* GHRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRevealViewController.h; sourceTree = "<group>"; };
 		6BE3FCD6147A118200CDEC04 /* GHRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRevealViewController.m; sourceTree = "<group>"; };
+		F580F26A1814F61B00B0ACCE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Demo/HomeViewController.h; sourceTree = SOURCE_ROOT; };
+		F580F26B1814F61B00B0ACCE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Demo/HomeViewController.m; sourceTree = SOURCE_ROOT; };
+		F580F26C1814F61B00B0ACCE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Demo/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 		6BBA75B914872E10004E1A5E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F580F26A1814F61B00B0ACCE /* HomeViewController.h */,
+				F580F26B1814F61B00B0ACCE /* HomeViewController.m */,
+				F580F26C1814F61B00B0ACCE /* HomeViewController.xib */,
 				6BBA75BA14873DFD004E1A5E /* GHAppDelegate.h */,
 				6BBA75BB14873DFD004E1A5E /* GHAppDelegate.m */,
 				6B4BD80014B10447004BE0CC /* GHMenuCell.h */,
@@ -229,6 +237,7 @@
 				6B0CAC0214BD064800394B5D /* searchBarIcon@2x.png in Resources */,
 				6B0CAC0314BD064800394B5D /* searchTextBG.png in Resources */,
 				372EED28166FE3B60067C395 /* Default-568h@2x.png in Resources */,
+				F580F26E1814F61B00B0ACCE /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +253,7 @@
 				6BBA75C114873DFE004E1A5E /* GHPushedViewController.m in Sources */,
 				6BBA75C214873DFE004E1A5E /* GHRootViewController.m in Sources */,
 				6BBA75CB14873E18004E1A5E /* main.m in Sources */,
+				F580F26D1814F61B00B0ACCE /* HomeViewController.m in Sources */,
 				6B4BD80214B10447004BE0CC /* GHMenuCell.m in Sources */,
 				6B014F5214B3DAC4001E922B /* GHMenuViewController.m in Sources */,
 				6B014F5714B41DB6001E922B /* GHSidebarSearchViewController.m in Sources */,
