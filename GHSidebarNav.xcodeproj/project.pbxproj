@@ -26,6 +26,8 @@
 		6BE3FCAD147A096500CDEC04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE3FCAC147A096500CDEC04 /* CoreGraphics.framework */; };
 		6BE3FCC4147A09E400CDEC04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE3FCC3147A09E400CDEC04 /* QuartzCore.framework */; };
 		6BE3FCDA147A118200CDEC04 /* GHRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE3FCD6147A118200CDEC04 /* GHRevealViewController.m */; };
+		F501F9C2181522350086EFB4 /* FillQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F501F9C0181522350086EFB4 /* FillQuestionViewController.m */; };
+		F501F9C3181522350086EFB4 /* FillQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F501F9C1181522350086EFB4 /* FillQuestionViewController.xib */; };
 		F580F26D1814F61B00B0ACCE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580F26B1814F61B00B0ACCE /* HomeViewController.m */; };
 		F580F26E1814F61B00B0ACCE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F580F26C1814F61B00B0ACCE /* HomeViewController.xib */; };
 		F580F2701815010A00B0ACCE /* home_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F580F26F1815010A00B0ACCE /* home_bg.png */; };
@@ -64,6 +66,9 @@
 		6BE3FCC3147A09E400CDEC04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6BE3FCD5147A118100CDEC04 /* GHRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRevealViewController.h; sourceTree = "<group>"; };
 		6BE3FCD6147A118200CDEC04 /* GHRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRevealViewController.m; sourceTree = "<group>"; };
+		F501F9BF181522350086EFB4 /* FillQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FillQuestionViewController.h; path = Demo/FillQuestionViewController.h; sourceTree = SOURCE_ROOT; };
+		F501F9C0181522350086EFB4 /* FillQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FillQuestionViewController.m; path = Demo/FillQuestionViewController.m; sourceTree = SOURCE_ROOT; };
+		F501F9C1181522350086EFB4 /* FillQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FillQuestionViewController.xib; path = Demo/FillQuestionViewController.xib; sourceTree = SOURCE_ROOT; };
 		F580F26A1814F61B00B0ACCE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Demo/HomeViewController.h; sourceTree = SOURCE_ROOT; };
 		F580F26B1814F61B00B0ACCE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Demo/HomeViewController.m; sourceTree = SOURCE_ROOT; };
 		F580F26C1814F61B00B0ACCE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Demo/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
@@ -93,6 +98,9 @@
 				F580F26A1814F61B00B0ACCE /* HomeViewController.h */,
 				F580F26B1814F61B00B0ACCE /* HomeViewController.m */,
 				F580F26C1814F61B00B0ACCE /* HomeViewController.xib */,
+				F501F9BF181522350086EFB4 /* FillQuestionViewController.h */,
+				F501F9C0181522350086EFB4 /* FillQuestionViewController.m */,
+				F501F9C1181522350086EFB4 /* FillQuestionViewController.xib */,
 				6BBA75BA14873DFD004E1A5E /* GHAppDelegate.h */,
 				6BBA75BB14873DFD004E1A5E /* GHAppDelegate.m */,
 				6B4BD80014B10447004BE0CC /* GHMenuCell.h */,
@@ -244,6 +252,7 @@
 				F580F27418150A6E00B0ACCE /* QA_Button.png in Resources */,
 				6BBA75CF14873E74004E1A5E /* user.png in Resources */,
 				6B0CAC0114BD064800394B5D /* searchBarIcon.png in Resources */,
+				F501F9C3181522350086EFB4 /* FillQuestionViewController.xib in Resources */,
 				F580F2701815010A00B0ACCE /* home_bg.png in Resources */,
 				F580F2721815072600B0ACCE /* QA.png in Resources */,
 				6B0CAC0214BD064800394B5D /* searchBarIcon@2x.png in Resources */,
@@ -267,6 +276,7 @@
 				6BBA75CB14873E18004E1A5E /* main.m in Sources */,
 				F580F26D1814F61B00B0ACCE /* HomeViewController.m in Sources */,
 				6B4BD80214B10447004BE0CC /* GHMenuCell.m in Sources */,
+				F501F9C2181522350086EFB4 /* FillQuestionViewController.m in Sources */,
 				6B014F5214B3DAC4001E922B /* GHMenuViewController.m in Sources */,
 				6B014F5714B41DB6001E922B /* GHSidebarSearchViewController.m in Sources */,
 			);

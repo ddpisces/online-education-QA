@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "FillQuestionViewController.h"
 
 @interface HomeViewController ()
 - (void)revealSidebar;
@@ -55,6 +56,8 @@
 }
 
 - (IBAction)raisingQuestion:(id)sender {
+    UIViewController *vc = [[FillQuestionViewController alloc] initWithTitle:@"填写问题"];
+	[self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
