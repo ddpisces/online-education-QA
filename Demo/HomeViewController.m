@@ -9,10 +9,13 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
-
+- (void)revealSidebar;
 @end
 
-@implementation HomeViewController
+@implementation HomeViewController{
+@private
+	RevealBlock _revealBlock;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,6 +24,18 @@
         // Custom initialization
     }
     return self;
+}
+
+- (id)initWithTitle:(NSString *)title withRevealBlock:(RevealBlock)revealBlock {
+    if (self = [super initWithNibName:nil bundle:nil]) {
+		self.title = title;
+		_revealBlock = [revealBlock copy];
+		self.navigationItem.leftBarButtonItem =
+        [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+                                                      target:self
+                                                      action:@selector(revealSidebar)];
+	}
+	return self;
 }
 
 - (void)viewDidLoad
@@ -33,6 +48,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)revealSidebar {
+	_revealBlock();
+}
+
+- (IBAction)raisingQuestion:(id)sender {
 }
 
 @end
