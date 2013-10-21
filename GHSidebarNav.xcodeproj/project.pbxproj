@@ -28,6 +28,9 @@
 		6BE3FCDA147A118200CDEC04 /* GHRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE3FCD6147A118200CDEC04 /* GHRevealViewController.m */; };
 		F580F26D1814F61B00B0ACCE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580F26B1814F61B00B0ACCE /* HomeViewController.m */; };
 		F580F26E1814F61B00B0ACCE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F580F26C1814F61B00B0ACCE /* HomeViewController.xib */; };
+		F580F2701815010A00B0ACCE /* home_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F580F26F1815010A00B0ACCE /* home_bg.png */; };
+		F580F2721815072600B0ACCE /* QA.png in Resources */ = {isa = PBXBuildFile; fileRef = F580F2711815072600B0ACCE /* QA.png */; };
+		F580F27418150A6E00B0ACCE /* QA_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F580F27318150A6E00B0ACCE /* QA_Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		F580F26A1814F61B00B0ACCE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Demo/HomeViewController.h; sourceTree = SOURCE_ROOT; };
 		F580F26B1814F61B00B0ACCE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Demo/HomeViewController.m; sourceTree = SOURCE_ROOT; };
 		F580F26C1814F61B00B0ACCE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Demo/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
+		F580F26F1815010A00B0ACCE /* home_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_bg.png; path = Images/home_bg.png; sourceTree = "<group>"; };
+		F580F2711815072600B0ACCE /* QA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QA.png; path = Images/QA.png; sourceTree = "<group>"; };
+		F580F27318150A6E00B0ACCE /* QA_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QA_Button.png; path = Images/QA_Button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 		6BE3FCCA147A115600CDEC04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F580F27318150A6E00B0ACCE /* QA_Button.png */,
+				F580F2711815072600B0ACCE /* QA.png */,
+				F580F26F1815010A00B0ACCE /* home_bg.png */,
 				6BBA75CC14873E74004E1A5E /* searchBarBG.png */,
 				6B0CABFE14BD064800394B5D /* searchBarIcon.png */,
 				6B0CABFF14BD064800394B5D /* searchBarIcon@2x.png */,
@@ -232,8 +241,11 @@
 			files = (
 				6BBA75C914873E18004E1A5E /* InfoPlist.strings in Resources */,
 				6BBA75CE14873E74004E1A5E /* searchBarBG.png in Resources */,
+				F580F27418150A6E00B0ACCE /* QA_Button.png in Resources */,
 				6BBA75CF14873E74004E1A5E /* user.png in Resources */,
 				6B0CAC0114BD064800394B5D /* searchBarIcon.png in Resources */,
+				F580F2701815010A00B0ACCE /* home_bg.png in Resources */,
+				F580F2721815072600B0ACCE /* QA.png in Resources */,
 				6B0CAC0214BD064800394B5D /* searchBarIcon@2x.png in Resources */,
 				6B0CAC0314BD064800394B5D /* searchTextBG.png in Resources */,
 				372EED28166FE3B60067C395 /* Default-568h@2x.png in Resources */,
